@@ -3,7 +3,7 @@ package controle;
 public class ContinueRotulado {
 	public static void main(String[] args) {
 		
-		// pouco usual
+		/// pouco usual
 		
 		externo:
 		for (int i = 0; i <3; i++) {
