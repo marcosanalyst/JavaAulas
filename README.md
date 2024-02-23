@@ -22,5 +22,5 @@ Aulas Classes e Métodos
 - Classe
 - instância
 - Valor Null
-- Variaveis Locais
+- Variáveis Locais
 - This
