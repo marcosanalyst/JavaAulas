@@ -1,5 +1,7 @@
-# JavaAulas
-Aulas Fundamentos
+# Principais Fundamentos e Conceitos JAVA 
+# Utilizando IDE Eclipe para testes e execução
+
+  Fundamentos
 - Tipos Primitivos
 - String
 - Conversões
@@ -7,7 +9,7 @@ Aulas Fundamentos
 - Lógicos
 - Aritméticos
 
-Aulas Estrutura de Controle
+  Estrutura de Controle
 - If
 - If/Else
 - While
@@ -16,7 +18,7 @@ Aulas Estrutura de Controle
 - Continue
 - Break
 
-Aulas Classes e Métodos
+  Classes e Métodos
 - Métodos
 - Construtor
 - Classe
