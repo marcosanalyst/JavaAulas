@@ -1,5 +1,5 @@
 # Principais Fundamentos e Conceitos JAVA 
-# Utilizando IDE Eclipe para testes e execução
+# Utilizando IDE Eclipse para testes e execução
 
   Fundamentos
 - Tipos Primitivos
