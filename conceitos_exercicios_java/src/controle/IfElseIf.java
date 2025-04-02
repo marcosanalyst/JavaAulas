@@ -20,7 +20,11 @@ public class IfElseIf {
 			System.out.println("Conceito C!");
 		} else if (nota >= 3.0) {
 			System.out.println("Conceito D!");
-		}	else {System.out.println("Conceito E!");}	
+		} else if (nota <= 3.0) {
+			System.out.println("Conceito E!");
+		}			else {
+			System.out.println("Conceito inválido!");
+		}
 		
 		entrada.close();
 	}

@@ -22,6 +22,10 @@ public class If {
 			System.out.println("Aluno Reprovado!");
 		}
 		
+		if(nota < 0) {
+			System.out.println("Nota inválida!");
+		}
+		
 		entrada.close();
 		
 	}

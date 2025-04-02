@@ -17,7 +17,7 @@ public class DesafioConversao {
 		double salario3 = entrada.nextDouble();
 		
 		double totalSalarios = salario1 + salario2 + salario3; 
-		double media = (salario1 + salario2 + salario3)/3 ;
+		double media = (totalSalarios)/3 ;
 		
 		System.out.println("Valor recebidos nos 3 últimos meses: R$ " + totalSalarios);
 		System.out.println("Média de salário: R$ " + media);

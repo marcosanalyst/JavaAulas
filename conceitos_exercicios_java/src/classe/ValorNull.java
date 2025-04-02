@@ -10,7 +10,7 @@ public class ValorNull {
 		Data d1 = Math.random() > 0.5 ? new Data() : null;
 		
 		if(d1 != null) {
-			d1.mês = 3;
+			d1.mes = 3;
 			System.out.println(d1.obterDataFormatada());
 		}
 		

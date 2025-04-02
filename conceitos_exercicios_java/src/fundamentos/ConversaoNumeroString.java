@@ -13,7 +13,7 @@ public class ConversaoNumeroString {
 		// outra forma
 		int num2 = 100000;
 		System.out.println(Integer.toString(num2).length());
-		
+
 		
 		/* Double.toString()
 		 * Float.toString()

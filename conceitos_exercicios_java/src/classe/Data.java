@@ -3,7 +3,7 @@ package classe;
 public class Data {
 	
 	int dia;
-	int mês;
+	int mes;
 	int ano;
 	
 	
@@ -19,7 +19,7 @@ public class Data {
 	// três parâmetros
 	Data(int novoDia, int novoMes, int novoAno){
 		this.dia = novoDia; // Acessar variável de INSTÂNCIA com this
-		this.mês = novoMes;
+		this.mes = novoMes;
 		this.ano = novoAno;
 		
 	}
@@ -29,7 +29,7 @@ public class Data {
 		final String formato = "%d/%d/%d";
 		
 		String obterDataFormatada() {
-			return String.format(formato, dia, mês, ano);
+			return String.format(formato, dia, mes, ano);
 		}
 		// variável LOCAL definida dentro método obterDataFormatada
 		

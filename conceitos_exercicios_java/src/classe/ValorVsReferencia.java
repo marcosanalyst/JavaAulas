@@ -16,7 +16,7 @@ public class ValorVsReferencia {
 		Data d2 = d1; // atribuição por referência (Objeto)
 				
 		d1.dia = 31;
-		d2.mês = 12;
+		d2.mes = 12;
 		
 		d1.ano = 2027;
 		
@@ -40,7 +40,7 @@ public class ValorVsReferencia {
 
 	static void voltarDataParaValorPadrao(Data d) {
 		d.dia = 1;
-		d.mês = 1;
+		d.mes = 1;
 		d.ano = 1970;
 	} 	  
 	
