@@ -3,10 +3,11 @@ package classe;
 public class ValorNull {
 	
 	public static void main(String[] args) {
-		
+		 
 		String s1 = "";
 		System.out.println(s1.contains("!!!"));
 		
+		// gera um número aleatório entre 0 e 1
 		Data d1 = Math.random() > 0.5 ? new Data() : null;
 		
 		if(d1 != null) {

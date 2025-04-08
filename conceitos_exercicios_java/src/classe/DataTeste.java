@@ -5,9 +5,9 @@ public class DataTeste {
 	public static void main(String[] args) {
 		
 		// tipo da variável + nome da variável = atribuição da var
-		Data d1 = new Data();
+		Data d1 = new Data(); // Data está setada de acordo com o construtor padrão
 		
-		// chama o construtor		
+		// chama o construtor, porém alterei os valores!	
 		d1.dia = 5;
 		d1.mes = 3;
 		d1.ano = 1999;

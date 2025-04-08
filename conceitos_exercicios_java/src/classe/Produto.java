@@ -11,7 +11,7 @@ public class Produto {
 	// tipo + nome do método + (parâmetros
 	// neste caso não precisa pois os dados já estão no objeto)
 	
-	// Nenhum parâmetro
+	// Nenhum parâmetro no construtor
 	Produto(){
 		
 	}
