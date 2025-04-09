@@ -22,7 +22,7 @@ public class Equals {
 		
 		// resultados acima, antes da implementação do equals
 		
-	//	System.out.println(u2.equals(new Date())); // false
+	// 	System.out.println(u2.equals(new Date())); // false
 		
 	}
 
