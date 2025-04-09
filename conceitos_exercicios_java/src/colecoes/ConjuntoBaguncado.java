@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class ConjuntoBaguncado {
 	
-	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@SuppressWarnings({ "rawtypes", "unchecked" }) // silenciar as advertências dos dados bagunçados/heterogêneos
 	public static void main(String[] args) {
 		
 		HashSet conjunto = new HashSet();
