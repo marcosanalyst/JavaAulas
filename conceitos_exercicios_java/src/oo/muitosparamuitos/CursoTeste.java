@@ -1,4 +1,4 @@
-package muitosparamuitos;
+package oo.muitosparamuitos;
 
 public class CursoTeste {
 	
