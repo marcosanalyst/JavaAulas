@@ -5,9 +5,9 @@ public class CompraTeste {
 		
 		Compra compra1 = new Compra();
 		compra1.cliente = "Marcos Silva";
-		compra1.itens.add(new Item("Caneta", 20, 7.40));
-		compra1.itens.add(new Item("Borracha", 12, 3.89));
-		compra1.itens.add(new Item("Caderno", 5, 18.79));
+		compra1.adicionarItem("Caneta", 20, 7.40);
+		compra1.adicionarItem(new Item("Borracha", 12, 3.89));
+		compra1.adicionarItem(new Item("Caderno", 5, 18.79));
 		
 		System.out.println(compra1.itens.size());
 		System.out.println(compra1.obterValorTotal());
