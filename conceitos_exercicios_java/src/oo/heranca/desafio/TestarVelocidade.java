@@ -7,7 +7,7 @@ public class TestarVelocidade {
 		
 		
 		System.out.println("Genérico");
-		Carro carroGenerico = new Carro();
+		Carro carroGenerico = new Carro(100);
 		carroGenerico.acelerar();
 		System.out.println(carroGenerico);
 		carroGenerico.acelerar();
@@ -31,7 +31,7 @@ public class TestarVelocidade {
 		
 		System.out.println("Ferrari");
 		
-		Ferrari ferrariDaBraba = new Ferrari();
+		Ferrari ferrariDaBraba = new Ferrari(400);
 		ferrariDaBraba.acelerar();
 		ferrariDaBraba.acelerar();
 		ferrariDaBraba.acelerar();
