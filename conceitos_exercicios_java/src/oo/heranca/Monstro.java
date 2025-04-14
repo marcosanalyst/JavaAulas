@@ -11,3 +11,4 @@ public class Monstro extends Jogador {
 }
 	
 }
+// Agora tenho duas possibilidades de criar instânciar um novo Monstro
