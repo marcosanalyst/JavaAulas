@@ -1,4 +1,4 @@
-package oo.composicao.encapsulamento.casaA;
+package oo.composicao.encapsulamento;
 
 public class Paulo {
 	
