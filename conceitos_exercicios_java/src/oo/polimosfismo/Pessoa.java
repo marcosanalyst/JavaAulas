@@ -7,18 +7,9 @@ public class Pessoa {
 	public Pessoa(double peso) {
 		setPeso(peso);
 	}
-	
-	public void comer(Arroz arroz) {
-		this.peso += arroz.getPeso();
-		
-	}
-	public void comer(Feijao feijao) {
-		this.peso += feijao.getPeso();
-		
-	}
-	public void comer(Sorvete sorvete) {
-		this.peso += sorvete.getPeso();
-		
+	// substituí os 3 métodos por 1. Através do polimorfismo!
+	public void comer(Comida comida) {
+		this.peso += comida.getPeso();
 	}
 
 	public double getPeso() {
