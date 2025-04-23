@@ -45,6 +45,7 @@ public class TestarVelocidade2 {
 		ferrariDaBraba.frear();
 		ferrariDaBraba.acelerar();
 		System.out.println(ferrariDaBraba);
+		System.out.println(ferrariDaBraba.velocidadeDoAr());
 		
 		System.out.println("Civic");
 		
