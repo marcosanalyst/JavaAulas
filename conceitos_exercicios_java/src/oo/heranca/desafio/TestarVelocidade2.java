@@ -40,10 +40,15 @@ public class TestarVelocidade2 {
 		ferrariDaBraba.frear();
 		ferrariDaBraba.frear();
 		System.out.println(ferrariDaBraba);
+		ferrariDaBraba.ligarTurbo();
+		ferrariDaBraba.acelerar();
+		ferrariDaBraba.frear();
+		ferrariDaBraba.acelerar();
+		System.out.println(ferrariDaBraba);
 		
 		System.out.println("Civic");
 		
-		Civic civicao = new Civic();
+		Carro civicao = new Civic();
 		civicao.acelerar();
 		civicao.acelerar();
 		civicao.acelerar();
