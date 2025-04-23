@@ -1,6 +1,7 @@
 package oo.polimosfismo;
 
-public class Comida {
+// tornei a classe Comida não instanciada! 
+public abstract class Comida {
 	
 	private double peso;
 	
